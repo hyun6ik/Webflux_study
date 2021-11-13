@@ -1,7 +1,5 @@
 package com.example.webflux_study.reactivestream;
 
-import rx.Subscription;
-
 public interface Subscriber<T> {
 
     void onSubscribe(Subscription s);
